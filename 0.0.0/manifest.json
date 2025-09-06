@@ -1,8 +1,8 @@
 {
   "polymod": {
-    "name": "Template Mod",
-    "id": "templatemod",
-    "author": "Author",
+    "name": "gravity",
+    "id": "gravitymod",
+    "author": "blobbo",
     "targets": ["0.5.1"],
     "main": "main.mod.js"
   },
