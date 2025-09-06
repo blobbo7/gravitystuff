@@ -11,13 +11,13 @@ class GravityMod extends PolyMod {
     // Keybind to toggle gravity
     pml.registerKeybind(
       "gravity switch",
-      "41",
+      "boiiiithisistuff",
       "keydown",
       "KeyG",
       () => {
         // Toggle between normal and alternate gravity
         this.gravityState = !this.gravityState;
-        const newGravity = this.gravityState ? -1.62 : -9.82; // Moon vs Earth
+        const newGravity = this.gravityState ? 9.82 : -9.82; // Moon vs Earth
 
         // Send new gravity value to sim worker
         pml.sendToSimWorker({
